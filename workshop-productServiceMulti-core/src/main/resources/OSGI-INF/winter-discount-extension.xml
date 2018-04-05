@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.workshop.productservice.extension.PromotionDescriptor">
+    <extension target="org.nuxeo.workshop.productservice.ProductService" point="promotions">
+        <promotion id="winter-sales" >
+            <discount>10.5</discount>
+        </promotion>
+    </extension>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.workshop.productservice.ProductService" version="1.0">
+
+  <implementation class="org.nuxeo.workshop.productservice.ProductServiceImpl" />
+
+  <service>
+    <provide interface="org.nuxeo.workshop.productservice.ProductService" />
+  </service>
+  <extension-point name="promotions">
+    <object class="org.nuxeo.workshop.productservice.PromotionDescriptor"/>
+  </extension-point>
+</component>
+
+

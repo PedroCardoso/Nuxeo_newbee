@@ -1,0 +1,13 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: org.nuxeo.workshop.productservice
+Bundle-Version: 1.0.0
+Bundle-Name: workshop-productService-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.nuxeo.workshop.productservice.workshop-productservice-core;singleton=true
+Nuxeo-Component: OSGI-INF/updateprice-operation-contrib.xml,
+ OSGI-INF/productservice-service.xml,
+ OSGI-INF/winter-discount-extension.xml,
+ OSGI-INF/org.nuxeo.workshop.productserviceproduct-adapter-contrib.xml,
+ OSGI-INF/productnotsold-listener-contrib.xml
