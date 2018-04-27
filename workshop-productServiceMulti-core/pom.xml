@@ -57,6 +57,19 @@
       <groupId>org.nuxeo.ecm.core</groupId>
       <artifactId>nuxeo-core-event</artifactId>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.nuxeo.elasticsearch/nuxeo-elasticsearch-core -->
+    <dependency>
+      <groupId>org.nuxeo.elasticsearch</groupId>
+      <artifactId>nuxeo-elasticsearch-core</artifactId>
+      <classifier>tests</classifier>
+      <scope>test</scope>
+      <version>9.10</version>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.elasticsearch</groupId>
+      <artifactId>nuxeo-elasticsearch-core</artifactId>
+      <version>9.10</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
-
 </project>
